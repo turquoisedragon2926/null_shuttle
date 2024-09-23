@@ -2,7 +2,7 @@ ENV["PYTHON"] = "/Users/richardr2926/.pyenv/versions/3.10.4/bin/python"
 
 using DrWatson
 
-@quickactivate "FNO-CIG"
+@quickactivate "null_shuttle"
 
 using NLopt
 using Zygote

@@ -11,3 +11,5 @@ TODOs: (Besides the ones annotated in the code)
 - Verify first gradient is good and working
 - Make plotting visuals clean
 - Run Optimizer and look at the null shuttles
+
+Make sure to install DrWatson before
