@@ -180,7 +180,7 @@ function get_starting_model(φ::FocusImageGatechObjective)
     # n = (size(m_train, 1), size(m_train, 2))
     # nxrec = size(m_train, 1)
 
-    data_path = "/Users/richardr2926/Desktop/Research/Code/FNO-CIG/null_shuttle/data/temp/m0.jld2"
+    data_path = "data/temp/m0.jld2"
     m0 = JLD2.jldopen(data_path, "r")["m0"]
     n = (size(m0, 1), size(m0, 2))
     nxrec = size(m0, 1)
