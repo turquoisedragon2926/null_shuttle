@@ -1,5 +1,3 @@
-ENV["PYTHON"] = "/Users/richardr2926/.pyenv/versions/3.10.4/bin/python"
-
 using DrWatson
 
 @quickactivate "null_shuttle"
@@ -9,8 +7,6 @@ using Zygote
 using Pkg
 using Conda
 
-Conda.add("matplotlib")
-Conda.add("numpy=1.24")
 Pkg.build("PyCall")
 
 include("hypothesis.jl")
