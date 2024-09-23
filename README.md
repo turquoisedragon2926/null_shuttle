@@ -13,3 +13,15 @@ TODOs: (Besides the ones annotated in the code)
 - Run Optimizer and look at the null shuttles
 
 Make sure to install DrWatson before
+
+Setup
+
+```
+module load Julia/1.8/5 cudnn-11 nvhpc-mpi Miniconda/3
+
+export JULIA_NUM_THREADS=$SLURM_CPUS_ON_NODE
+
+export DEVITO_LANGUAGE=openacc
+export DEVITO_ARCH=nvc
+export DEVITO_PLATFORM=nvidiaX
+```
