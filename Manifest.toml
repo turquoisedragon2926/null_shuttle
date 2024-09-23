@@ -2,7 +2,7 @@
 
 julia_version = "1.10.0"
 manifest_format = "2.0"
-project_hash = "d27559188686a1b35a6b18d3e69e7c1f91c91a79"
+project_hash = "8309b002c4296c23c00da41a8eec33fffbdb0e72"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -472,6 +472,12 @@ deps = ["CatIndices", "ComputationalResources", "DataStructures", "FFTViews", "F
 git-tree-sha1 = "3447781d4c80dbe6d71d239f7cfb1f8049d4c84f"
 uuid = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 version = "0.7.6"
+
+[[deps.ImageGather]]
+deps = ["JUDI", "LinearAlgebra"]
+git-tree-sha1 = "e7f8a3e4bafabc4154558c1f3cd6f3e5915a534f"
+uuid = "355d8124-6b2e-49b5-aab5-cdbc0a5fccbe"
+version = "0.3.0"
 
 [[deps.ImageTransformations]]
 deps = ["AxisAlgorithms", "ColorVectorSpace", "CoordinateTransformations", "IdentityRanges", "ImageCore", "Interpolations", "OffsetArrays", "Rotations", "StaticArrays"]

@@ -5,6 +5,7 @@ using JUDI
 using PyPlot
 using Augmentor
 using ImageFiltering
+using ImageGather
 using LinearAlgebra
 using .Config
 
